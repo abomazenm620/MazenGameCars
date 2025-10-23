@@ -301,7 +301,8 @@ class SimInterface {
 console.log("جاري الانضمام إلى جلسة اللعبة...");
 Multisynq.Session.join({
     // !!! هام جداً: استبدل هذا النص بمفتاح API الخاص بك من موقع multisynq.io
-    apiKey: "2XDOLvdMMqSchPO6xQXRB0WpilgSWQIQlaFxTk8DbS",
+    apiKey: "fetch("https://myapi.vercel.app/api")
+",
     name: location.origin + location.pathname, // اسم فريد للجلسة يجعل كل من يفتح نفس الرابط يدخل نفس اللعبة
     password: "none",
     model: SharedSimulation, // كلاس منطق اللعبة
